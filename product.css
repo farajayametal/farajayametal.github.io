@@ -11,10 +11,12 @@
   -webkit-backdrop-filter: saturate(180%) blur(20px);
   backdrop-filter: saturate(180%) blur(20px);
 }
+
 .site-header a {
   color: #8e8e8e;
   transition: color .15s ease-in-out;
 }
+
 .site-header a:hover {
   color: #fff;
   text-decoration: none;
@@ -54,16 +56,37 @@
   background-color: #e5e5e5;
 }
 
-
 /*
  * Extra utilities
  */
 
-.flex-equal > * {
+.flex-equal>* {
   flex: 1;
 }
+
 @media (min-width: 768px) {
-  .flex-md-equal > * {
+  .flex-md-equal>* {
     flex: 1;
+  }
+}
+
+.pojok-item {
+  position: absolute;
+  right: 30px;
+}
+
+.ini-kotak {
+  width: auto;
+  height: auto;
+}
+
+.ini-warna-0 {
+  width: 300px;
+  height: 540px;
+}
+
+@media (max-width: 575.98px) {
+  .pojok-item {
+    position: inherit;
   }
 }
