@@ -60,7 +60,7 @@
   <!-- mulai -->
 
   <header class="site-header sticky-top py-0">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">Navbar</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -70,10 +70,13 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link active" aria-current="page" href="#home-01">Home</a>
             </li>
-            <li class="nav-item pojok-item">
-              <a class="nav-link" href="#">Link</a>
+            <li class="nav-item">
+              <a class="nav-link active" href="#produk-kami">Produk-kami</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#tentang-kami">tentang-kami</a>
             </li>
           </ul>
         </div>
@@ -86,33 +89,77 @@
     <!-- main mulai -->
 
 
-    <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">
-      <div class="col-md-5 p-lg-5 mx-auto my-5">
-        <h1 class="display-4 fw-normal">Punny headline</h1>
-        <p class="lead fw-normal">And an even wittier subheading to boot. Jumpstart your marketing efforts with this
-          example based on Apple’s marketing pages.</p>
-        <a class="btn btn-outline-secondary" href="#">Coming soon</a>
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
       </div>
-      <div class="product-device shadow-sm d-none d-md-block"></div>
-      <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="asset/item01.jpeg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>First slide label</h5>
+            <p>Some representative placeholder content for the first slide.</p>
+          </div>
+        </div>
+      </div>
+
     </div>
+
+    <!-- carousel selesai -->
+
     <!-- page satu selesai -->
 
     <!-- page 2 -->
-    <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center">
-      <div class="col-md-5 p-lg-5 mx-auto my-5" style="max-width: 100%;">
-        <!-- ini awal -->
-        <h1 class="display-4 fw-normal text-center">Punny headline</h1>
-        <p class="lead fw-normal text-center">Kenapa Beli Di sini</p>
-        <a class="btn btn-outline-secondary text-center" href="#">Coming soon</a>
-        <!-- ini akhir -->
+    <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bck-01" id="home-01">
+
+      <!-- ini awal -->
+      <div class="container">
+        <div class="row">
+          <div class="col">
+
+            <!-- awal -->
+            <h1>
+              Kecepatan respon
+            </h1>
+            <p>
+              Respon yang cepat membuahkan hasil yang bagus
+            </p>
+
+            <!-- akhir -->
+          </div>
+          <div class="col">
+            <!-- awal -->
+            <h1>
+              Komitmen untuk konsisten
+            </h1>
+            <p>
+              Komitmen kami untuk menjadi lebih baik
+            </p>
+
+            <!-- akhir -->
+          </div>
+        </div>
       </div>
+
+
+
+      <!-- ini akhir -->
+
     </div>
+
+
+
     <!-- page 2 selesai  -->
+    <div class="judul-produk" style="margin-top: 3%;" id="produk-kami">
+      <h1 class="display-4 fw-normal text-center"> Produk kami</h1>
+      <p class="lead fw-normal text-center">Detail</p>
+
+    </div>
 
     <div class="card-group">
       <div class="card">
-        <img src="..." class="card-img-top" alt="...">
+        <img src="asset/item01.jpeg" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Card title</h5>
           <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
@@ -120,16 +167,20 @@
           <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
         </div>
       </div>
+
+      <!--  -->
       <div class="card">
-        <img src="..." class="card-img-top" alt="...">
+        <img src="asset/item02.jpeg" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Card title</h5>
           <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
           <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
         </div>
       </div>
+
+      <!--  -->
       <div class="card">
-        <img src="..." class="card-img-top" alt="...">
+        <img src="asset/item03.jpeg" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Card title</h5>
           <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
@@ -141,9 +192,9 @@
 
     <!-- page 3 akhir -->
 
-    <div class="card-group">
+    <div class="card-group batas">
       <div class="card">
-        <img src="..." class="card-img-top" alt="...">
+        <img src="asset/item04.jpeg" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Card title</h5>
           <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
@@ -152,7 +203,7 @@
         </div>
       </div>
       <div class="card">
-        <img src="..." class="card-img-top" alt="...">
+        <img src="asset/item05.jpeg" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Card title</h5>
           <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
@@ -160,7 +211,7 @@
         </div>
       </div>
       <div class="card">
-        <img src="..." class="card-img-top" alt="...">
+        <img src="asset/item06.jpeg" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Card title</h5>
           <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
@@ -174,13 +225,13 @@
 
 
 
-    <div class="container">
+    <div class="container batas">
       <div class="row">
         <div class="col">
 
           <!-- ini container 1 -->
           <div class="card">
-            <img src="..." class="card-img-top" alt="...">
+            <img src="asset/item07.jpeg" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
               <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
@@ -196,7 +247,7 @@
 
           <!-- ini container 2 -->
           <div class="card">
-            <img src="..." class="card-img-top" alt="...">
+            <img src="asset/item08.jpeg" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
               <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
@@ -210,56 +261,69 @@
       </div>
     </div>
     <!-- produk akhir -->
-    <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center">
+    <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bck-01">
       <div class="col-md-5 p-lg-5 mx-auto my-5" style="max-width: 100%;">
         <!-- ini awal -->
-        <h1 class="display-4 fw-normal text-center">Punny headline</h1>
-        <p class="lead fw-normal text-center">Kenapa Beli Di sini</p>
-        <a class="btn btn-outline-secondary text-center" href="#">Coming soon</a>
+        <h1 class="display-4 fw-normal text-center" id="tentang-kami">Tentang Kami</h1>
+        <p class="lead fw-normal text-center">Visi, misi, dan Tujuan</p>
         <div class="accordion accordion-flush" id="accordionFlushExample">
           <div class="accordion-item">
             <h2 class="accordion-header" id="flush-headingOne">
               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                 data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                Accordion Item #1
+                VISI
               </button>
             </h2>
+
             <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
               data-bs-parent="#accordionFlushExample">
-              <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the
-                <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+              <div class="accordion-body"> Menjadi perusahaan jasa, di bidang Tiang PJU, dengan di tunjang dengan
+                kualitas management yang bagus <br>
+                yang memberikan kualitas pelayan yang terbaik </div>
             </div>
           </div>
+          <!-- page 1 selesai -->
+
           <div class="accordion-item">
             <h2 class="accordion-header" id="flush-headingTwo">
               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                 data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                Accordion Item #2
+                MISI
               </button>
             </h2>
             <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
               data-bs-parent="#accordionFlushExample">
-              <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the
-                <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being
-                filled with some actual content.</div>
+              <div class="accordion-body">
+                1. Memberikan pelayan, mutu dan kepuasan yang terbaik kepada pelangan <br>
+                2. Memberikan serta menciptakan citra terbaik pengusaha <br>
+                3. Turut andil dalam pembagunan dalam negri <br>
+              </div>
             </div>
           </div>
+
+          <!-- page 2 selesai -->
+
           <div class="accordion-item">
             <h2 class="accordion-header" id="flush-headingThree">
               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                 data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                Accordion Item #3
+                Tujuan
               </button>
             </h2>
             <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
               data-bs-parent="#accordionFlushExample">
-              <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the
-                <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting
-                happening here in terms of content, but just filling up the space to make it look, at least at first
-                glance, a bit more representative of how this would look in a real-world application.</div>
+              <div class="accordion-body">
+                Memberikan layanan atau konsultasi dalam mewujudkan impian atau keinginan pelanggan dalam bidang jasa,
+                baik perencanaan maupun perencanaan dan pelaksanaanya <br>
+
+
+              </div>
             </div>
           </div>
         </div>
+
+
+
         <!-- ini akhir -->
       </div>
     </div>
@@ -269,65 +333,36 @@
     <!-- ini chat -->
     <a href="https://api.whatsapp.com/send/?phone=6283856222179&text&app_absent=0" class="float">
       <img src="wa-icon.png" alt="icon" style="height: auto; max-width: 120%;">
-      <h3 style="color: white; margin-top: 20%;"> WA </h3>
+      <h3 style="color: white; margin-top: 20%;"> </h3>
       <!-- <i class="fa fa-plus my-float"></i> -->
     </a>
     <!-- akhir main -->
   </main>
 
-  <footer class="container py-5">
-    <div class="row" id="halo">
-      <div class="col-12 col-md">
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor"
-          stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="d-block mb-2" role="img"
-          viewBox="0 0 24 24">
-          <title>Product</title>
-          <circle cx="12" cy="12" r="10" />
-          <path
-            d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94" />
-        </svg>
-        <small class="d-block mb-3 text-muted">&copy; 2017–2021</small>
-      </div>
-      <div class="col-6 col-md">
-        <h5>Features</h5>
-        <ul class="list-unstyled text-small">
-          <li><a class="link-secondary" href="#">Cool stuff</a></li>
-          <li><a class="link-secondary" href="#">Random feature</a></li>
-          <li><a class="link-secondary" href="#">Team feature</a></li>
-          <li><a class="link-secondary" href="#">Stuff for developers</a></li>
-          <li><a class="link-secondary" href="#">Another one</a></li>
-          <li><a class="link-secondary" href="#">Last time</a></li>
-        </ul>
-      </div>
-      <div class="col-6 col-md">
-        <h5>Resources</h5>
-        <ul class="list-unstyled text-small">
-          <li><a class="link-secondary" href="#">Resource name</a></li>
-          <li><a class="link-secondary" href="#">Resource</a></li>
-          <li><a class="link-secondary" href="#">Another resource</a></li>
-          <li><a class="link-secondary" href="#">Final resource</a></li>
-        </ul>
-      </div>
-      <div class="col-6 col-md">
-        <h5>Resources</h5>
-        <ul class="list-unstyled text-small">
-          <li><a class="link-secondary" href="#">Business</a></li>
-          <li><a class="link-secondary" href="#">Education</a></li>
-          <li><a class="link-secondary" href="#">Government</a></li>
-          <li><a class="link-secondary" href="#">Gaming</a></li>
-        </ul>
-      </div>
-      <div class="col-6 col-md">
-        <h5>About</h5>
-        <ul class="list-unstyled text-small">
-          <li><a class="link-secondary" href="#">Team</a></li>
-          <li><a class="link-secondary" href="#">Locations</a></li>
-          <li><a class="link-secondary" href="#">Privacy</a></li>
-          <li><a class="link-secondary" href="#">Terms</a></li>
-        </ul>
+  <footer>
+    <div class="page-akhir">
+      <div class="item">
+        <!-- isi di sini -->
+
+        <div class="container">
+          <div class="row">
+            <div class="col-sm">
+              One of three columns
+            </div>
+            <div class="col-sm">
+              One of three columns
+            </div>
+            <div class="col-sm">
+              One of three columns
+            </div>
+          </div>
+        </div>
+
+        <!-- berakhir di sini -->
       </div>
     </div>
   </footer>
+
 
 
   <script src="dist/js/bootstrap.bundle.min.js"></script>
