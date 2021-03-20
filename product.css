@@ -71,6 +71,20 @@ body {
   .pojok-item {
     position: inherit;
   }
+
+  h1 {
+    font-size: 30px;
+  }
+
+  p {
+    font-size: 12px;
+  }
+
+  /* ini batas hp */
+
+  .batas-hp {
+    margin-top: 5%;
+  }
 }
 
 .batas {
