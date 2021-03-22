@@ -106,3 +106,7 @@ body {
   max-width: 100%;
   max-height: auto;
 }
+
+.card-nama {
+  font-family: 'Montserrat', sans-serif;
+}
