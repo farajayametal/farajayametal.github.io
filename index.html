@@ -11,6 +11,12 @@
         integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
 
     <title>Fara Jaya Metal</title>
+
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- dari w3school -->
+
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -20,6 +26,33 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Oswald&family=Ubuntu+Mono:ital@1&family=Ubuntu:wght@300&display=swap"
         rel="stylesheet">
+
+    <style>
+        .my-float {
+            margin-top: 22px;
+        }
+
+        .float {
+            position: fixed;
+            /* background-color: white; */
+            width: 60px;
+            height: 55px;
+            bottom: 20px;
+            right: 10px;
+            border-radius: 50px;
+            text-align: center;
+            /* box-shadow: 2px 2px 3px #999; */
+            /* filter: brightness(90%); */
+        }
+
+        img {
+            margin-bottom: -7px
+        }
+
+        .w3-row-padding img {
+            margin-bottom: 12px
+        }
+    </style>
 </head>
 
 <body>
@@ -27,7 +60,7 @@
     <header class="site-header sticky-top py-0">
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">Navbar</a>
+                <a class="navbar-brand" href="#">LOGO</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -54,8 +87,8 @@
     <div class="box-01">
         <!-- awal box-01 -->
         <br>
-        <h1 class="text-center" style="font-family: 'Ubuntu', sans-serif;"> Fara Jaya Metal</h1>
-        <img src="asset/item10.jpeg" class="img-fluid image-tengah" alt="...">
+        <h1 class="text-center" style="font-family: 'Ubuntu', sans-serif;" id="home-01"> - Fara Jaya Metal -</h1>
+        <img src="asset/item10.jpeg" class="img-fluid image-tengah" alt="..." style="filter: brightness(70%);">
 
 
         <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center" id="home-01">
@@ -66,7 +99,7 @@
                     <div class="col">
 
                         <!-- awal -->
-                        <h1 style="font-family: 'Ubuntu', sans-serif;">
+                        <h1 style="font-family: 'Ubuntu', sans-serif;" class="hp-text">
                             Kecepatan respon
                         </h1>
                         <p>
@@ -79,7 +112,7 @@
                     <!-- div 01 end -->
                     <div class="col batas-hp">
                         <!-- awal -->
-                        <h1 style="font-family: 'Ubuntu', sans-serif;">
+                        <h1 style="font-family: 'Ubuntu', sans-serif;" class="hp-text">
                             Komitmen untuk konsisten
                         </h1>
                         <p>
@@ -92,144 +125,66 @@
                 </div>
             </div>
 
-            <h1 class="text-center batas" style="font-family: 'Oswald', sans-serif;">
+            <h1 class="text-center batas" style="font-family: 'Oswald', sans-serif;" id="produk-kami">
                 Produk kami
             </h1>
             <p class="text-center">
                 <hr style="height: 3px;">
-
+                <p class="w3-padding-16"><button class="w3-button w3-black" onclick="myFunction()">Toggle Grid
+                        Padding</button></p>
             </p>
             <!-- batas Produk kami -->
 
-            <div class="card-group batas">
-                <div class="card">
-                    <img src="asset/item01.jpeg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title card-nama">Card title</h5>
-
-                        <!-- text -->
-                    </div>
+            <div class="w3-row" id="myGrid" style="margin-bottom:128px">
+                <div class="w3-third">
+                    <img src="asset/item01.jpeg" style="width:100%">
+                    <img src="asset/item02.jpeg" style="width:100%">
+                    <img src="asset/item07.jpeg" style="width:100%">
                 </div>
 
-                <!--  -->
-                <div class="card">
-                    <img src="asset/item02.jpeg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title card-nama">Card title</h5>
+                <div class="w3-third">
+                    <img src="asset/item05.jpeg" style="width:100%">
+                    <img src="asset/item06.jpeg" style="width:100%">
+                    <img src="asset/item08.jpeg" style="width:100%">
 
-                        <!-- text -->
-                    </div>
                 </div>
 
-                <!--  -->
-                <div class="card">
-                    <img src="asset/item03.jpeg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title card-nama">Card title</h5>
-
-
-                        <!-- text -->
-                    </div>
+                <div class="w3-third">
+                    <img src="asset/item04.jpeg" style="width:100%">
+                    <img src="asset/item03.jpeg" style="width:100%">
+                    <img src="asset/item09.jpeg" style="width:100%">
                 </div>
             </div>
 
-            <!-- page 3 akhir -->
 
-            <div class="card-group batas">
-                <div class="card">
-                    <img src="asset/item04.jpeg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title card-nama">Card title</h5>
-
-
-                        <!-- text -->
-                    </div>
-                </div>
-                <div class="card">
-                    <img src="asset/item05.jpeg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title card-nama">Card title</h5>
-
-
-                        <!-- text -->
-                    </div>
-                </div>
-                <div class="card">
-                    <img src="asset/item06.jpeg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title card-nama">Card title</h5>
-
-
-                        <!-- text -->
-                    </div>
-                </div>
-            </div>
-
-            <!-- page 4 akhir -->
-
-
-
-            <div class="container batas">
-                <div class="row">
-                    <div class="col-6">
-
-                        <!-- ini container 1 -->
-                        <div class="card">
-                            <img src="asset/item07.jpeg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title card-nama">Card title</h5>
-
-
-                                <!-- text -->
-                            </div>
-
-                        </div>
-                    </div>
-
-                    <div class="col-6">
-
-                        <!-- ini container 2 -->
-                        <div class="card">
-                            <img src="asset/item08.jpeg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title card-nama">Card title</h5>
-
-
-                                <!-- text -->
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
             <!-- card-group end -->
 
-            <h1 class="batas text-center" style="font-family: 'Oswald', sans-serif;">
+            <h1 class="batas text-center" style="font-family: 'Oswald', sans-serif;" id="tentang-kami">
                 Tentang kami
                 <hr>
             </h1>
             <p class="text-center">
-                <h4>VISI</h4> <br>
+                <h4>- VISI -</h4>
                 Menjadi perusahaan Tiang PJU, dengan di tunjang dengan
                 kualitas management yang bagus <br>
                 yang memberikan kualitas pelayan yang terbaik
 
             </p>
+            <br>
             <p class="text-center">
-                <h4>MISI</h4> <br>
+                <h4>- MISI -</h4>
                 1. Memberikan pelayan, mutu dan kepuasan yang terbaik kepada pelangan <br>
                 2. Memberikan serta menciptakan citra terbaik pengusaha <br>
                 3. Turut andil dalam pembagunan dalam negri <br>
             </p>
-
+            <br>
             <p class="text-center">
-                <h4>TUJUAN </h4> <br>
+                <h4>- TUJUAN -</h4>
                 Memberikan layanan atau konsultasi dalam mewujudkan impian atau keinginan pelanggan dalam bidang jasa,
                 baik perencanaan maupun perencanaan dan pelaksanaanya <br>
             </p>
 
             <!-- VISI MISI END -->
-
 
             <footer>
                 <br> <br>
@@ -255,19 +210,49 @@
                                     </div>
                                 </div>
                             </div>
-
+                            <br> <br>
                         </div>
                         <!-- berakhir di sini -->
                     </div>
                 </div>
             </footer>
 
+            <!-- footer end -->
+
+            <a href="https://api.whatsapp.com/send/?phone=6283856222179&text&app_absent=0" class="float">
+                <img src="asset/chat.svg" alt="" class="svg-image">
+            </a>
+            <!-- end chat -->
+
+            <!-- awal script -->
+            <script>
+                // Toggle grid padding
+                function myFunction() {
+                    var x = document.getElementById("myGrid");
+                    if (x.className === "w3-row") {
+                        x.className = "w3-row-padding";
+                    } else {
+                        x.className = x.className.replace("w3-row-padding", "w3-row");
+                    }
+                }
+
+                // Open and close sidebar
+                function w3_open() {
+                    document.getElementById("mySidebar").style.width = "100%";
+                    document.getElementById("mySidebar").style.display = "block";
+                }
+
+                function w3_close() {
+                    document.getElementById("mySidebar").style.display = "none";
+                }
+            </script>
             <!-- ini akhir -->
 
         </div>
 
 
 
+        <!-- chat -->
 
 
         <!-- box-01-end -->
