@@ -75,7 +75,11 @@ body {
     }
 
     .svg-image {
-        width: 45px;
+        width: 45px !important;
+    }
+
+    .text-pc {
+        font-size: 60px !important;
     }
 
     /* image end */
