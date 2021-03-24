@@ -5,6 +5,25 @@ body {
 
 /* body end */
 
+
+.site-header {
+    background-color: rgba(0, 0, 0, .85);
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    backdrop-filter: saturate(180%) blur(20px);
+}
+
+.site-header a {
+    color: #8e8e8e;
+    transition: color .15s ease-in-out;
+}
+
+.site-header a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* input  */
+
 .box-01 {
     margin-left: auto;
     margin-right: auto;
@@ -33,6 +52,13 @@ body {
         width: auto;
     }
 
+    .svg-image {
+        width: 40px;
+    }
+
+    .hp-text {
+        font-size: 27px;
+    }
 
     /* akhir css */
 }
@@ -47,6 +73,14 @@ body {
         margin-left: auto !important;
         margin-right: auto !important;
     }
+
+    .svg-image {
+        width: 45px;
+    }
+
+    /* image end */
+
+
 
     /* pc akhir */
 }
