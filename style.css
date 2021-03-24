@@ -1,0 +1,54 @@
+body {
+    background-image: url(asset/item09.jpeg);
+    background-size: cover;
+}
+
+/* body end */
+
+.box-01 {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    width: 90%;
+    height: auto;
+    background-color: white;
+}
+
+/* box-01 end */
+
+.batas {
+    margin-top: 4%;
+}
+
+/* batas end */
+.box-02 {
+    background-color: black;
+    color: white;
+}
+
+@media (max-width: 575.98px) {
+
+    /* handphone css */
+    .box-01 {
+        width: auto;
+    }
+
+
+    /* akhir css */
+}
+
+/* Handphone */
+
+@media (min-width: 1200px) {
+
+    /* untuk PC css */
+    .image-tengah {
+        display: block;
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+
+    /* pc akhir */
+}
+
+/* Laptop */
